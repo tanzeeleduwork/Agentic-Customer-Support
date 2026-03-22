@@ -1,0 +1,27 @@
+[
+  {
+    "id": "TKT-001",
+    "description": "Accessibility - Urgent assistance booking issue",
+    "text": "Hi, I am a wheelchair user and I booked rail assistance for my journey tomorrow from Manchester Piccadilly to London Euston. The app is showing my booking as pending for the last 3 hours and I cannot confirm if the assistance has been arranged. I am really worried as I cannot travel without it. Can someone please help urgently?"
+  },
+  {
+    "id": "TKT-002",
+    "description": "Billing - Duplicate charge",
+    "text": "Hello, I have been charged twice for my subscription this month. My account shows two payments of 29.99 GBP on 15th March. Please refund the duplicate charge. My account email is user@example.com"
+  },
+  {
+    "id": "TKT-003",
+    "description": "Technical - Production API errors",
+    "text": "The API integration we set up last week keeps returning 503 errors during peak hours between 8am and 10am. This is affecting our ability to process passenger assistance requests in real time. This is a production issue impacting multiple operators."
+  },
+  {
+    "id": "TKT-004",
+    "description": "Account - New user onboarding with accessibility needs",
+    "text": "Hi, I am a new user and I am not sure how to add my accessibility requirements to my profile. I use a guide dog and I want to make sure this is noted for all my bookings going forward. Could you help me set this up?"
+  },
+  {
+    "id": "TKT-005",
+    "description": "General - Bulk staff account import request",
+    "text": "We are a train operating company using your platform. We need to onboard 40 new station staff members and wanted to check if there is an admin portal or API endpoint we can use to bulk-import new staff accounts rather than adding them one by one."
+  }
+]

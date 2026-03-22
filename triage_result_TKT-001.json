@@ -1,0 +1,24 @@
+{
+  "ticket_text": "Hi, I am a wheelchair user and I booked rail assistance for my journey tomorrow from Manchester Piccadilly to London Euston. The app is showing my booking as 'pending' for the last 3 hours and I cannot confirm if the assistance has been arranged. I am really worried as I cannot travel without it. Can someone please help urgently?",
+  "timestamp": "2026-03-23T02:07:39.461776",
+  "classification": {
+    "category": "accessibility",
+    "confidence": 0.9,
+    "urgency": "high"
+  },
+  "extracted_info": {
+    "affected_service": "rail assistance booking",
+    "requires_human_review": true,
+    "user_issue": "The user's rail assistance booking is pending and they cannot confirm if the assistance has been arranged.",
+    "user_sentiment": "urgent"
+  },
+  "routing": {
+    "assigned_team": "accessibility_team",
+    "escalate": false,
+    "sla_hours": 2
+  },
+  "draft_response": {
+    "response_body": "Dear [User], I am so sorry to hear that you are experiencing difficulties with your rail assistance booking. I understand how important it is for you to have confirmation of the assistance, and I am here to help. I have escalated your issue to our accessibility team, who will review your booking and get back to you as soon as possible. You can expect a response within the next 2 hours. In the meantime, please do not hesitate to contact us if you have any further concerns. We apologize for any inconvenience this has caused and appreciate your patience. Thank you for reaching out to us.",
+    "subject_line": "Re: Urgent Assistance with Rail Assistance Booking"
+  }
+}
