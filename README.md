@@ -18,33 +18,7 @@ This project builds a working AI agent for automated support ticket triage using
 | **Urgency Levels** | 4 (critical, high, medium, low) |
 
 ## Agent Architecture
-
-```
-Raw Support Ticket (plain text)
-            |
-            v
-+--------------------------------+
-|     System Prompt + Context    |
-|   (Transreport domain knowledge)|
-+--------------------------------+
-            |
-            v
-+--------------------------------+
-|        Groq LLM Backend        |
-|   llama-3.3-70b-versatile      |
-|                                |
-|   Agentic Loop:                |
-|   1. classify_ticket    -----> | urgency + category + confidence
-|   2. extract_ticket_info ----> | issue summary + sentiment
-|   3. route_ticket       -----> | team + SLA + escalation flag
-|   4. draft_response     -----> | subject line + email body
-+--------------------------------+
-            |
-            v
-  Triage Report (stdout) + JSON file
-```
-
-The agent uses **LLM tool use (function calling)** — the model autonomously decides which tools to call and in what order, making it genuinely agentic rather than a hardcoded pipeline.
+![Agent Architecture](agent_architecture.png)
 
 ## Project Workflow
 
